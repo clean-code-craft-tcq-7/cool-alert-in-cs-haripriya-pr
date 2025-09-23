@@ -13,22 +13,22 @@ public static class CoolingAlert
         // ------- STEP 3 -----------------
         // Minimal code to pass tests in test_cooling_alert
 
-        // if (coolingType == CoolingType.PASSIVE_COOLING && temperature > PASSIVE_COOLING_LIMIT)
-        // {
-        //     action.ActionType = ActionType.ALERT_EMAIL;
-        //     action.ActionBody = $"Temperature alert: {temperature:F1}F";
-        // }
+        if (coolingType == CoolingType.PASSIVE_COOLING && temperature > PASSIVE_COOLING_LIMIT)
+        {
+            action.ActionType = ActionType.ALERT_EMAIL;
+            action.ActionBody = $"Temperature alert: {temperature:F1}F";
+        }
         // ------- STEP 4: duplicated logic for active cooling type
         // else if (coolingType == CoolingType.HI_ACTIVE_COOLING && temperature > HI_ACTIVE_COOLING_LIMIT)
         // {
         //     action.ActionType = ActionType.ALERT_EMAIL;
         //     action.ActionBody = $"Temperature alert: {temperature:F1}F";
         // } //------- STEP 4 code ends -------
-        // else
-        // {
-        //     action.ActionType = ActionType.NO_ALERT;
-        //     action.ActionBody = string.Empty;
-        // }
+        else
+        {
+             action.ActionType = ActionType.NO_ALERT;
+            action.ActionBody = string.Empty;
+        }
 
         //------- STEP 3 code ends -------
          return action;
