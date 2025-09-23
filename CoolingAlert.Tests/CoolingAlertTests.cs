@@ -3,7 +3,6 @@ using Xunit;
 namespace CoolingAlert.Tests;
 
 // ----------- STEP 2 -----------------
-/*
 public class CoolingAlertTests
 {
     [Fact]
@@ -21,7 +20,7 @@ public class CoolingAlertTests
         Assert.Equal(ActionType.NO_ALERT, action.ActionType);
     }
     // ----------- STEP 2 code ends -------
-
+/*
     // ----------- STEP 4 -----------------
     //[Fact]
     //public void ActiveCoolingAlertToEmail()

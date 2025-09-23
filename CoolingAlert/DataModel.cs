@@ -1,7 +1,7 @@
 namespace CoolingAlert;
 
 // ----------- STEP 2 -----------------
-/*
+
 // Minimal data-models to pass STEP 2 in tests
 public enum CoolingType
 {
@@ -21,5 +21,5 @@ public sealed class Action
     public ActionType ActionType { get; set; }
     public string ActionBody { get; set; } = string.Empty;
 }
-*/
+
 // ----------- STEP 2 code ends -------
