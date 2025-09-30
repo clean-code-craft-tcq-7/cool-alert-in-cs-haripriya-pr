@@ -3,7 +3,7 @@ using Xunit;
 namespace CoolingAlert.Tests;
 
 // ----------- STEP 6 code starts -------
-/*
+
 public class ActuatorStub : IActuators
 {
     public string EmailTo { get; private set; } = string.Empty;
@@ -34,5 +34,5 @@ public class ChainTests
         Assert.Equal("manager@battery.com", actuatorStub.EmailTo);
     }
 }
-*/
+
 // ----------- STEP 6 code ends -------

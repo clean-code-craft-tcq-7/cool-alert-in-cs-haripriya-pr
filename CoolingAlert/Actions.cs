@@ -1,7 +1,7 @@
 namespace CoolingAlert;
 
 // ----------- STEP 6 -----------------
-/*
+
 // Actuators
 public interface IActuators
 {
@@ -17,5 +17,5 @@ public sealed class Actuators : IActuators
         return true; // Success
     }
 }
-*/
+
 // ----------- STEP 6 code ends -------

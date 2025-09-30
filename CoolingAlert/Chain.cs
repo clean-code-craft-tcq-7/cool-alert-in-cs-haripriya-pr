@@ -1,7 +1,7 @@
 namespace CoolingAlert;
 
 // ----------- STEP 6 -----------------
-/*
+
 // Chain the BatteryDataModel to Action
 public static class Chain
 {
@@ -13,5 +13,5 @@ public static class Chain
         }
     }
 }
-*/
+
 // ----------- STEP 6 code ends -------
