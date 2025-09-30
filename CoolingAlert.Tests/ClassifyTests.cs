@@ -3,7 +3,7 @@ using Xunit;
 namespace CoolingAlert.Tests;
 
 // ----------- STEP 5 -----------------
-/*
+
 public class ClassifyTests
 {
     [Fact]
@@ -22,5 +22,5 @@ public class ClassifyTests
         Assert.Equal(BatteryState.BatteryAlert, state);
     }
 }
-*/
+
 // ----------- STEP 5 code ends -------

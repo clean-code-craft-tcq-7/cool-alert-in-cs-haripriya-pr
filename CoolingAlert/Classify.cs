@@ -1,7 +1,7 @@
 namespace CoolingAlert;
 
 // ----------- STEP 5 -----------------
-/*
+
 // Separation of classification from the email action.
 public static class Classify
 {
@@ -16,5 +16,5 @@ public static class Classify
         return state;
     }
 }
-*/
+
 // ----------- STEP 5 code ends -------

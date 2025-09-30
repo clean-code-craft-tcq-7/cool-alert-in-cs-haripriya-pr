@@ -3,7 +3,7 @@ using Xunit;
 namespace CoolingAlert.Tests;
 
 // ----------- STEP 5 -----------------
-/*
+
 public class ThresholdsTests
 {
     [Fact]
@@ -17,5 +17,5 @@ public class ThresholdsTests
         Assert.True(medActiveLimit < hiActiveLimit);
     }
 }
-*/
+
 // ----------- STEP 5 code ends -------
