@@ -3,7 +3,7 @@ using System.Collections.Generic;
 namespace CoolingAlert;
 
 // ----------- STEP 5 -----------------
-/*
+
 // Refactor for duplication. Deprecate old interface in favor of new one.
 public static class Thresholds
 {
@@ -24,5 +24,5 @@ public static class Thresholds
         return 0.0f;
     }
 }
-*/
+
 // ----------- STEP 5 code ends -------
