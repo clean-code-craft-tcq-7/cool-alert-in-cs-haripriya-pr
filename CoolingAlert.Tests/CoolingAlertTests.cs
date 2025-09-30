@@ -21,6 +21,7 @@ public class CoolingAlertTests
     }
     // ----------- STEP 2 code ends -------
 
+    /*
     // ----------- STEP 4 -----------------
     [Fact]
     public void ActiveCoolingAlertToEmail()
@@ -30,6 +31,6 @@ public class CoolingAlertTests
         Assert.Equal("Temperature alert: 60.0F", action.ActionBody);
     }
     // ----------- STEP 4 code ends -------
-
+    */
 }
 

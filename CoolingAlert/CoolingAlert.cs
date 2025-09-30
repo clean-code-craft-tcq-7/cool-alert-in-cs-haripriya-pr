@@ -18,12 +18,14 @@ public static class CoolingAlert
             action.ActionType = ActionType.ALERT_EMAIL;
             action.ActionBody = $"Temperature alert: {temperature:F1}F";
         }
+        /*
         // ------- STEP 4: duplicated logic for active cooling type
          else if (coolingType == CoolingType.HI_ACTIVE_COOLING && temperature > HI_ACTIVE_COOLING_LIMIT)
          {
             action.ActionType = ActionType.ALERT_EMAIL;
              action.ActionBody = $"Temperature alert: {temperature:F1}F";
          } //------- STEP 4 code ends -------
+        */
         else
         {
              action.ActionType = ActionType.NO_ALERT;
